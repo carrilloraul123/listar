@@ -1,0 +1,17 @@
+{
+    "name": "Lista de Actividades",
+    "short_name": "Actividades",
+    "description": "Una aplicación para gestionar tus actividades diarias.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "icons": [
+      {
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
+  

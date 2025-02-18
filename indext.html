@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Actividades</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Iconos para la instalación -->
+    <link rel="icon" href="icon.png" sizes="192x192">
+    
+    <!-- Manifesto para PWA -->
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Actividades</h1>
+
+        <form id="activityForm">
+            <input type="text" id="activityName" placeholder="Descripción de la actividad" required>
+            <input type="datetime-local" id="activityDate" required>
+            <button type="submit">Agregar Actividad</button>
+        </form>
+
+        <ul id="activityList">
+            <!-- Las actividades se mostrarán aquí -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
